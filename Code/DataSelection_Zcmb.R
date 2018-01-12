@@ -1,6 +1,6 @@
 # Extract the redshift information from the selected supernova Ia
 
-dataselectionPath <- "/Users/yanxiaomeng/Dropbox/project/snoopy/pipeline/Data/DataSelection/"
+dataselectionPath <- "/Users/yanxiaomeng/Dropbox/project/snoopy/pipeline/Data/FormatedBVRI/"
 dataselectionFile <- list.files(dataselectionPath)
 setwd(dataselectionPath)
 SNe <- rep(0,length(dataselectionFile))

@@ -14,8 +14,8 @@ import pandas as pd
 
 
 
-myPath = "/Users/yanxiaomeng/Dropbox/project/snoopy/pipeline/Data/kCorrected/"
-outputfile = "/Users/yanxiaomeng/Dropbox/project/snoopy/pipeline/Data/model_v2/coresne_table.csv"
+myPath = "/Users/yanxiaomeng/Dropbox/project/snoopy/pipeline/Data/kCorrected_p/"
+outputfile = "/Users/yanxiaomeng/Dropbox/project/snoopy/pipeline/Data/model_v2_p/coresne_table.csv"
 
 
 onlyFiles = [f for f in listdir(myPath) if re.search(r'csv', f)]
@@ -33,10 +33,13 @@ df = pd.DataFrame(index=range(0, nFiles),
 redshiftdf = pd.read_csv("/Users/yanxiaomeng/Dropbox/project/snoopy/pipeline/Data/Redshift.csv")
 
 for rowI in range(0, nFiles):
-    print(onlyFiles[rowI].replace(".csv", ""))
-    sneName = onlyFiles[rowI].replace(".csv", "")
-    survey = 'CSP'
-    snetype = 'main'
+    print(onlyFiles[rowI].replace(".csv", "").split("_"))
+    sneName = onlyFiles[rowI].replace(".csv", "").split("_")[0]
+    survey = onlyFiles[rowI].replace(".csv", "").split("_")[1]
+    snetype = onlyFiles[rowI].replace(".csv", "").split("_")[2]
+    df['SN'][rowI] = sneName
+    df['Survey'][rowI] = survey
+    df['snetype'][rowI] = snetype
     df['SN'][rowI] = sneName
     df['Survey'][rowI] = survey
     df['snetype'][rowI] = snetype

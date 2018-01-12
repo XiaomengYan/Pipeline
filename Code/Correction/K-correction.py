@@ -3,7 +3,7 @@ import matplotlib
 
 # ubertemp.py: module to pick  the CSP or Prieto files
 ## Here: we pick prieto filters
-snpy.ubertemp.template_bands = ['B', 'V', "r", 'i']
+snpy.ubertemp.template_bands = ['Bs', 'Vs', "Rs", 'Is']
 
 #Input variable:
 ##       s: object obtained by get_sn()
@@ -15,18 +15,19 @@ snpy.ubertemp.template_bands = ['B', 'V', "r", 'i']
 def kcorr_output(s, ks, kspath):
     ks_keys = ks.keys()
     fout = open(kspath, 'w')
-    fout.write("Filter,MJD,Mag,Sigma\n")
+    fout.write("Filter,MJD,Mag,Sigma,Code\n")
     for filterI in range(0, len(ks_keys)):
         ckey = ks_keys[filterI]
         lkey = len(ckey)
-        filterName = ckey
+        filterName = ckey[0]
+        filterCode = ckey[1:lkey]
         ksdata = ks.get(ks_keys[filterI])
         lc = s.data.get(ks_keys[filterI])
         for lineI in range(0, len(ksdata)):
             currLine = filterName + ","
             currLine = currLine + str(lc.MJD[lineI]) + "," + \
                 str(lc.magnitude[lineI] - ksdata[lineI]) + "," + \
-                str(lc.e_mag[lineI]) + "\n"
+                str(lc.e_mag[lineI]) + "," + filterCode + "\n"
             fout.write(currLine)
     fout.close()
 

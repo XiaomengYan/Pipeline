@@ -25,9 +25,11 @@ for(i in 1:length(rawfile)){
   Redshift <- as.numeric(RRADEC[4])
   RA <- TranFunRA(RRADEC[8])
   DEC <- TranFunDEC(RRADEC[11])
+  ObsTime <- as.numeric(paste(unlist(strsplit(Objname,split = ""))[3:6],collapse = ""))
+  FilterType <- DeterFilter(ObsTime)
   FilterName <- c('B','V','r','i')
   lightcurveMat <- ExtractBVRIFun(lightcurveMat,FilterName)
-  WriteFun(Objname,Redshift,RA,DEC,lightcurveMat)
+  WriteFun(Objname,FilterType,Redshift,RA,DEC,lightcurveMat)
 }
 
 
@@ -50,7 +52,7 @@ for(i in 1:length(rawfile)){
 ####################### Main function ########################################
 # WriteTxt function: combine the data frame and the information about the Object 
 # which generate the format that can be recognized by SNOOPY
-WriteFun <- function(Objname_,Redshift_,RA_,DEC_,lightcurveMat_){
+WriteFun <- function(Objname_,FilterType_,Redshift_,RA_,DEC_,lightcurveMat_){
   InfVec <- c(Objname_,Redshift_,RA_,DEC_)
   outpath <- "/Users/yanxiaomeng/Dropbox/project/snoopy/pipeline/Data/FormatedBVRI/"
   Objnametxt <- paste0(outpath,Objname_,"_CSP_main.txt")
@@ -63,8 +65,8 @@ WriteFun <- function(Objname_,Redshift_,RA_,DEC_,lightcurveMat_){
     reNadf <- newdf
   }else{
   reNadf <- newdf[-unique(c(which(newdf[,2]==99.9),which(newdf[,3]==99.9))),]}
-  fileName = names(lightcurveMat_)[j*2]
-  write.table(t(c("filter",fileName)),Objnametxt,sep = " ",append = TRUE,col.names = FALSE,row.names = FALSE,quote = FALSE)
+  fileName <- names(lightcurveMat_)[j*2]
+  write.table(t(c("filter",paste0(fileName,FilterType_))),Objnametxt,sep = " ",append = TRUE,col.names = FALSE,row.names = FALSE,quote = FALSE)
   write.table(reNadf,Objnametxt,sep = " ",append = TRUE,col.names = FALSE,row.names = FALSE,quote = FALSE)
   }
 }
@@ -86,6 +88,15 @@ ExtractBVRIFun <- function(lightcurveMat_,FilterName_){
   return(resdf)
 }
 
+# Determine the V-band filter according to Timestamp
+DeterFilter <- function(ObsTime_){
+  Change <- 2006
+  if(ObsTime_ < Change){
+    return("CSP3014")
+  }else{
+    return("CSP9844")
+  }
+}
 
 # Transfer function which transfer ::: to .
 TranFunRA <- function(InputChara){
