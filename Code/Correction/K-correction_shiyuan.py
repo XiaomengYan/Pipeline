@@ -35,23 +35,17 @@ def kcorr_output(s, ks, kspath):
             fout.write(currLine)
     fout.close()
 
-# s = snpy.get_sn("./data/data_raw_python/SN1998de_LOSS_main.txt")
-# s.restbands
-# s.replot = 0
-# s.fit()
-# s.summary()
-# s.kcorr()
-# s.plot_kcorrs()
-# s.plot()
-# matplotlib.pyplot.savefig("tmp2.png")
 
 from os import listdir
 from os.path import isfile, join
 
 
+########## Customer set ##################################################
+
 figfolder = "/Users/yanxiaomeng/Dropbox/project/snoopy/pipeline/Figs/004kcorr/" # Figure output path
 mypath = "/Users/yanxiaomeng/Dropbox/project/snoopy/pipeline/Data/FormatedBVRI/" # Read in path
 ksfolder = "/Users/yanxiaomeng/Dropbox/project/snoopy/pipeline/Data/kCorrected_p/" # File output path
+###########################################################################
 
 onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 

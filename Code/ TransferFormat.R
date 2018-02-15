@@ -1,9 +1,63 @@
-setwd("~/Dropbox/project/snoopy/pipeline")
-rawpath <- "/Users/yanxiaomeng/Dropbox/project/snoopy/pipeline/Data/CSP_Photometry_DR2/"
+######## customer set ###########
+rawpath <- "/Users/yanxiaomeng/Dropbox/project/snoopy/pipeline/Data/ThirdReleaseData/DR3/"
+outpath <<- "/Users/yanxiaomeng/Dropbox/project/snoopy/pipeline/Data/ThirdReleaseData/FormateBVRI/"
+#################################
 
+
+###################################################################
+##Procedure to deal with third release dataset
+setwd("~/Dropbox/project/snoopy/pipeline")
 rawfile <- list.files(rawpath)
 options(digits=10)
+for(i in 1:length(rawfile)){
+  print(i)
+  inputname <- paste0(rawpath,rawfile[i])
+  # Read the raw data (without removing "#")
+  inputfile_raw <- readLines(inputname)
+  SNname <- unlist(strsplit(inputfile_raw[1],split = " "))[1]
+  write.table(inputfile_raw[1],file = paste0(outpath,SNname,"_CSP_main.txt"),quote = FALSE,row.names = FALSE,col.names = FALSE)
+  Locfilter <- grep("filter",inputfile_raw)
+  EntireFilterName <- c("filter B","filter V0","filter V1","filter V","filter r","filter i")
+  for(j in EntireFilterName){
+  ExactFilterLoc <- which(inputfile_raw[Locfilter]== j)
+    if(length(ExactFilterLoc) == 0)
+    {
+      next()
+    }
+    else if(ExactFilterLoc == length(Locfilter))
+    {
+      ExactFilterReponse <- inputfile_raw[Locfilter[ExactFilterLoc]:length(inputfile_raw)]
+    }
+    else{
+    ExactFilterReponse <- inputfile_raw[Locfilter[ExactFilterLoc]:(Locfilter[ExactFilterLoc+1]-1)]
+    }
+    write.table(ExactFilterReponse,file = paste0(outpath,SNname,"_CSP_main.txt"),row.names = FALSE,quote = FALSE,col.names = FALSE,append = TRUE)
+  }
+}
+  
+  
+  
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+########################################################################
+setwd("~/Dropbox/project/snoopy/pipeline")
+rawfile <- list.files(rawpath)
+options(digits=10)
 for(i in 1:length(rawfile)){
   # The path for the specific object
   inputname <- paste0(rawpath,rawfile[i])
@@ -32,29 +86,11 @@ for(i in 1:length(rawfile)){
   WriteFun(Objname,FilterType,Redshift,RA,DEC,lightcurveMat)
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ####################### Main function ########################################
 # WriteTxt function: combine the data frame and the information about the Object 
 # which generate the format that can be recognized by SNOOPY
 WriteFun <- function(Objname_,FilterType_,Redshift_,RA_,DEC_,lightcurveMat_){
   InfVec <- c(Objname_,Redshift_,RA_,DEC_)
-  outpath <- "/Users/yanxiaomeng/Dropbox/project/snoopy/pipeline/Data/FormatedBVRI/"
   Objnametxt <- paste0(outpath,Objname_,"_CSP_main.txt")
   write.table(t(InfVec),Objnametxt,sep = " ",col.names = FALSE,row.names = FALSE,quote = FALSE)
   Nfilter <- (ncol(lightcurveMat_)-1)/2
@@ -70,7 +106,6 @@ WriteFun <- function(Objname_,FilterType_,Redshift_,RA_,DEC_,lightcurveMat_){
   write.table(reNadf,Objnametxt,sep = " ",append = TRUE,col.names = FALSE,row.names = FALSE,quote = FALSE)
   }
 }
-
 ### Extract specific filter information from the lightcurveMat dataframe.
 ExtractBVRIFun <- function(lightcurveMat_,FilterName_){
   lightcurveMat_name <- names(lightcurveMat_)
@@ -87,7 +122,6 @@ ExtractBVRIFun <- function(lightcurveMat_,FilterName_){
   }
   return(resdf)
 }
-
 # Determine the V-band filter according to Timestamp
 DeterFilter <- function(ObsTime_){
   Change <- 2006
@@ -97,14 +131,12 @@ DeterFilter <- function(ObsTime_){
     return("CSP9844")
   }
 }
-
 # Transfer function which transfer ::: to .
 TranFunRA <- function(InputChara){
   tmp <- as.numeric(unlist(strsplit(InputChara,split = "\\:")))
    res <- (tmp[1]+tmp[2]/60+tmp[3]/3600)*15
   return(res)
 }
-
 TranFunDEC <-function(InputChara){
   tmp <- as.numeric(unlist(strsplit(InputChara,split = "\\:")))
   res <- abs(tmp[1])+tmp[2]/60+tmp[3]/3600
@@ -112,5 +144,4 @@ TranFunDEC <-function(InputChara){
   return(res)
   }else{return((-1)*res)}
 }
-
 

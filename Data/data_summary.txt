@@ -1,0 +1,261 @@
+SN 1989B                                                       7.54 Ia-norm             N
+SN 1989M                                                  2.49,3.48 Ia-norm     HVG BL HV
+SN 1990O                                                      12.54 Ia-norm              
+SN 1990N                                                       7.11 Ia-norm             N
+SN 1991M                                                      18.06 Ia-norm              
+SN 1991T                                          -10.10,-9.11,6.80 Ia-91T               
+SN 1991bg                                           0.14,1.14,19.07 Ia-91bg   FAINT      
+SN 1993ac                                                     12.68 Ia-norm              
+SN 1994D    -12.31,-11.31,-9.32,-7.67,-6.32,-5.32,-3.87,-3.33,14.04 Ia-norm     LVG CN  N
+SN 1994Q                                                       9.68 Ia-norm             N
+SN 1994S                                                       1.11 Ia-norm         SS  N
+SN 1995D                                                       3.84 Ia-norm         CN  N
+SN 1995E                                                      -2.46 Ia-norm         CN  N
+SN 1995ac                                                     -6.34 Ia-91T               
+SN 1997Y                                                       1.27 Ia-norm         BL  N
+SN 1997bp                                                      5.49 Ia-norm            HV
+SN 1997br                                                     -4.84 Ia-91T               
+SN 1997do                                                     -5.67 Ia-norm              
+SN 1998V                                                       7.20 Ia-norm             N
+SN 1998bp                                                     18.87 Ia-norm              
+SN 1998dh                                                     18.77 Ia-norm              
+SN 1998dk                                               -7.24,-0.54 Ia-norm            HV
+SN 1998dm                                        -12.48,-5.61,14.22 Ia-norm              
+SN 1998dx                                                      5.13 Ia-norm            HV
+SN 1998ec                                                     11.86 Ia-norm              
+SN 1998ef                                                     -8.62 Ia-norm              
+SN 1998es                                                      0.28 Ia-99aa         SS   
+SN 1999aa                                   -10.58,0.24,14.04,17.04 Ia-99aa         SS   
+SN 1999ac                                               -3.70,-0.89 Ia-norm     HVG CN  N
+SN 1999cl                                                      7.90 Ia-norm             N
+SN 1999cp                                                4.91,13.85 Ia-norm     LVG BL  N
+SN 1999cw                                                     14.79 Ia-norm              
+SN 1999da                                                -2.12,6.76 Ia-91bg   FAINT CL   
+SN 1999dg                                                     15.08 Ia-norm              
+SN 1999dk                                               -6.60,17.06 Ia-norm              
+SN 1999do                                                      9.96 Ia-norm              
+SN 1999dq                                                -3.93,2.97 Ia-99aa     HVG SS   
+SN 1999ee                                                     17.65 Ia-91T               
+SN 1999ek                                                      5.66 Ia-norm             N
+SN 1999gd                                                     -1.12 Ia-norm         BL  N
+SN 1999gh                                          4.12,15.89,15.97 Ia-norm   FAINT CL  N
+SN 2000bk                                                     14.84 Ia-norm              
+SN 2000cn                                                     14.25 Ia-norm              
+SN 2000cp                                                2.92,11.70 Ia-norm             N
+SN 2000cu                                                      9.64 Ia-norm             N
+SN 2000cw                                                      4.81 Ia-norm         BL  N
+SN 2000dg                                                -5.09,4.66 Ia-norm         SS  N
+SN 2000dk                                                1.00,10.84 Ia-norm   FAINT CL  N
+SN 2000dm                                                -1.63,8.18 Ia-norm     HVG BL  N
+SN 2000dn                                               -0.94,16.38 Ia-norm     LVG BL  N
+SN 2000dr                                                      6.78 Ia-norm             N
+SN 2000dx                                                     -9.26 Ia-norm              
+SN 2000ey                                                      7.90 Ia-norm            HV
+SN 2000fa                                                -8.25,6.86 Ia-norm             N
+SN 2001E                                                      15.01 Ia-norm              
+SN 2001G                                                      11.57 Ia-norm              
+SN 2001N                                                      13.05 Ia-norm              
+SN 2001V                                                      15.86 Ia-norm              
+SN 2001ay                                                      6.79 Ia-norm            HV
+SN 2001az                                                     -3.24 Ia-norm             N
+SN 2001bf                                                      1.22 Ia-norm             N
+SN 2001bg                                               13.70,18.91 Ia-norm    HVG*      
+SN 2001br                                                 3.47,3.48 Ia-norm         BL HV
+SN 2001bp                                                      0.51 Ia-norm              
+SN 2001cp                                                1.39,18.00 Ia-norm             N
+SN 2001da                                                -1.12,9.72 Ia-norm     HVG BL  N
+SN 2001dl                                                     13.84 Ia-norm              
+SN 2001dt                                                     13.60 Ia-norm              
+SN 2001dw                                                     11.06 Ia-norm              
+SN 2001eh                                          -5.63,-4.53,3.26 Ia-99aa         SS   
+SN 2001en                                               10.09,14.72 Ia-norm     HVG      
+SN 2001ep                                       2.83,4.99,5.97,7.85 Ia-norm     HVG CL  N
+SN 2001ex                                                     -1.82 Ia-91bg              
+SN 2001fe                                                     -0.99 Ia-norm         SS  N
+SN 2001fh                                                 5.93,7.84 Ia-norm             N
+SN 2002G                                                      19.31 Ia-norm              
+SN 2002aw                                                2.10,15.84 Ia-norm             N
+SN 2002bf                                                 2.97,6.90 Ia-norm         BL HV
+SN 2002bo                                        -11.94,-1.08,15.99 Ia-norm     HVG    HV
+SN 2002bz                                                      4.92 Ia-norm         CL  N
+SN 2002cd                                                1.10,17.89 Ia-norm     LVG    HV
+SN 2002cf                                               -0.75,15.95 Ia-91bg         CL   
+SN 2002ck                                                      3.64 Ia-norm         CN  N
+SN 2002cr                                                     -6.78 Ia-norm              
+SN 2002cs                                                     -7.76 Ia-norm              
+SN 2002cu                                               -5.28,16.62 Ia-norm              
+SN 2002db                                                      9.21 Ia-norm            HV
+SN 2002de                                                -0.32,8.37 Ia-norm     HVG CL HV
+SN 2002df                                                      6.55 Ia-norm              
+SN 2002dj                                                     -7.98 Ia-norm              
+SN 2002dk                                                     -1.23 Ia-91bg         CL   
+SN 2002dp                                                     15.55 Ia-norm              
+SN 2002eb                                                      1.68 Ia-norm             N
+SN 2002ef                                                      4.70 Ia-norm         BL  N
+SN 2002eh                                                      6.88 Ia                   
+SN 2002el                                                     11.82 Ia-norm              
+SN 2002er                                                -4.58,5.26 Ia-norm            HV
+SN 2002et                                                     11.92 Ia-norm              
+SN 2002eu                                                -0.06,9.38 Ia-norm    HVG? CL  N
+SN 2002fb                                                0.98,18.60 Ia-91bg         CL   
+SN 2002fk                                                      7.74 Ia-norm             N
+SN 2002ha                                           -0.85,4.93,7.89 Ia-norm     LVG BL  N
+SN 2002hd                                                6.48,12.72 Ia-norm    HVG*     N
+SN 2002he                                     -5.91,-1.03,0.29,3.22 Ia-norm     HVG BL HV
+SN 2002hu                                                     -5.81 Ia-99aa              
+SN 2002hw                                                     -6.27 Ia-norm              
+SN 2002jg                                                     10.11 Ia-norm              
+SN 2002jy                                                     11.86 Ia-norm              
+SN 2002kf                                                      6.81 Ia-norm             N
+SN 2003D                                                       9.98 Ia-norm             N
+SN 2003K                                                      13.43 Ia-91T               
+SN 2003U                                                      -2.55 Ia-norm         BL  N
+SN 2003W                                                -5.06,18.14 Ia-norm              
+SN 2003Y                                                      -1.74 Ia-91bg              
+SN 2003ai                                                      7.25 Ia-norm             N
+SN 2003cq                                                     -0.15 Ia-norm            HV
+SN 2003du                                                     17.61 Ia-norm              
+SN 2003fa                                                     -8.16 Ia-99aa              
+SN 2003gn                                                     -5.38 Ia-norm              
+SN 2003gt                                               -5.07,17.61 Ia-norm              
+SN 2003he                                                 2.71,8.54 Ia-norm     LVG BL  N
+SN 2003hs                                                     -5.49 Ia-norm              
+SN 2003iv                                                 1.76,6.58 Ia-norm    HVG? CL  N
+SN 2003kf                                                     -7.50 Ia-norm              
+SN 2004E                                                       5.26 Ia-norm             N
+SN 2004S                                                       8.26 Ia-norm             N
+SN 2004as                                                     -4.36 Ia-norm         BL HV
+SN 2004bg                                                     10.34 Ia-norm              
+SN 2004bd                                                     10.76 Ia-norm              
+SN 2004bk                                                      6.13 Ia-norm            HV
+SN 2004bl                                                4.61,19.38 Ia-norm    HVG? CN  N
+SN 2004br                                                      3.50 Ia-norm              
+SN 2004bv                                                -7.06,9.77 Ia-91T               
+SN 2004bw                                               -10.03,6.59 Ia-norm             N
+SN 2004dt                                          -6.46,1.38,18.00 Ia-norm     HVG BL HV
+SN 2004ef                                                -5.52,8.05 Ia-norm            HV
+SN 2004eo                                               -5.57,13.19 Ia-norm              
+SN 2004ey                                               -7.58,18.80 Ia-norm              
+SN 2004fu                                                -2.65,2.43 Ia-norm    HVG? BL HV
+SN 2004fz                                               -5.18,17.56 Ia-norm              
+SN 2004gs                                                      0.44 Ia-norm         CL  N
+SN 2004gu                                                     -4.65 Ia-norm              
+SN 2005A                                                       5.55 Ia                   
+SN 2005M                                            -1.41,8.23,9.23 Ia-norm     HVG     N
+SN 2005W                                                       0.59 Ia-norm         BL  N
+SN 2005ag                                                      0.53 Ia-norm             N
+SN 2005am                                                 4.47,6.37 Ia-norm   FAINT BL  N
+SN 2005ao                                                -1.29,0.52 Ia              SS   
+SN 2005bc                                                 1.55,7.37 Ia-norm     LVG CL  N
+SN 2005be                                               10.96,16.71 Ia-norm              
+SN 2005bl                                                     18.07 Ia-91bg              
+SN 2005cf                                  -10.94,-2.11,-1.19,18.69 Ia-norm     HVG CN  N
+SN 2005de                                               -0.75,10.10 Ia-norm     HVG BL  N
+SN 2005dm                                                      5.23 Ia-91bg              
+SN 2005dv                                                     -0.57 Ia-norm         BL HV
+SN 2005el                                           -6.70,1.22,8.09 Ia-norm     LVG CN  N
+SN 2005er                                           -0.26,1.67,5.64 Ia-91bg    HVG? CL   
+SN 2005eq                                          -6.01,-2.98,0.66 Ia-99aa     HVG      
+SN 2005ew                                                     18.23 Ia                   
+SN 2005eu                                               -9.06,-5.46 Ia-norm              
+SN 2005hj                                                      7.51 Ia-norm             N
+SN 2005iq                                                     -5.86 Ia-norm              
+SN 2005kc                                               10.28,12.25 Ia-norm              
+SN 2005ke                                           7.80,9.83,14.79 Ia-91bg              
+SN 2005ki                                                 1.62,8.35 Ia-norm     LVG BL  N
+SN 2005mc                                                      6.64 Ia-norm             N
+SN 2005lz                                                      0.58 Ia-norm         BL  N
+SN 2005ms                                               -1.88,14.62 Ia-norm     HVG     N
+SN 2005na                                           0.03,1.03,17.49 Ia-norm     HVG     N
+SN 2006D                                                 3.70,16.70 Ia-norm         BL  N
+SN 2006H                                                       7.01 Ia-91bg              
+SN 2006N                                          -1.89,-0.90,11.91 Ia-norm     HVG BL  N
+SN 2006S                                           -3.93,2.99,18.45 Ia-norm     LVG      
+SN 2006X                                                       3.15 Ia-norm         BL HV
+SN 2006ac                                                      7.96 Ia-norm            HV
+SN 2006ak                                                      8.43 Ia-norm             N
+SN 2006ax                                                    -10.07 Ia-norm              
+SN 2006bq                                          6.97,14.55,14.64 Ia-norm    HVG*    HV
+SN 2006br                                                     10.62 Ia-norm              
+SN 2006bt                                          -5.30,-4.53,2.27 Ia-norm     HVG CL  N
+SN 2006bu                                                      4.22 Ia-norm         CN  N
+SN 2006bw                                                      8.90 Ia-norm             N
+SN 2006bz                                                     -2.44 Ia-91bg         CL   
+SN 2006cc                                                     17.67 Ia-norm              
+SN 2006cf                                          6.28,11.09,18.69 Ia-norm             N
+SN 2006cj                                                      3.43 Ia-norm         SS  N
+SN 2006cm                                                -1.15,6.77 Ia-norm             N
+SN 2006cp                                                     -5.30 Ia-norm              
+SN 2006cq                                                      2.00 Ia-norm             N
+SN 2006cs                                                      2.28 Ia-91bg         CL   
+SN 2006cz                                                      1.12 Ia-99aa              
+SN 2006dm                                          -7.90,8.73,14.61 Ia-norm     HVG     N
+SN 2006ef                                                      3.20 Ia-norm         BL HV
+SN 2006gr                                                     -8.70 Ia-norm              
+SN 2006ej                                                -3.70,5.09 Ia-norm     HVG BL HV
+SN 2006em                                                      4.16 Ia-91bg              
+SN 2006en                                                      8.55 Ia-norm             N
+SN 2006eu                                               10.17,16.02 Ia-norm     HVG      
+SN 2006et                                                 3.29,9.14 Ia-norm     LVG SS  N
+SN 2006ev                                               10.54,16.36 Ia-norm    HVG?      
+SN 2006gt                                                      3.08 Ia-91bg              
+SN 2006gj                                                      4.70 Ia-norm         CL  N
+SN 2006ke                                                 2.36,8.38 Ia-91bg    HVG?      
+SN 2006kf                                         -8.96,-3.05,17.37 Ia-norm         CL  N
+SN 2006le                                               -8.69,11.92 Ia-norm              
+SN 2006lf                                               -6.30,14.29 Ia-norm              
+SN 2006mo                                                     12.46 Ia-norm              
+SN 2006mp                                                      5.66 Ia-99aa              
+SN 2006or                                                -2.79,4.93 Ia-norm         BL  N
+SN 2006os                                                      8.61 Ia-norm             N
+SN 2006qo                                                    -11.08 Ia                   
+SN 2006sr                                                -2.34,2.69 Ia-norm     HVG BL HV
+SN 2007A                                                 2.37,15.07 Ia-norm    LVG? CN  N
+SN 2007F                                                 -9.35,3.23 Ia-norm         SS  N
+SN 2007N                                                       0.44 Ia              CL   
+SN 2007O                                                      -0.33 Ia-norm         SS  N
+SN 2007S                                                       5.18 Ia-norm             N
+SN 2007af                                           -1.25,2.84,3.81 Ia-norm     HVG BL  N
+SN 2007aj                                                     10.75 Ia-norm              
+SN 2007al                                                      3.39 Ia-91bg              
+SN 2007ap                                                      9.37 Ia-norm             N
+SN 2007au                                                     16.11 Ia-norm              
+SN 2007ax                                                     14.93 Ia-91bg              
+SN 2007ba                                            2.14,5.18,8.06 Ia-91bg              
+SN 2007bc                                                      0.61 Ia-norm         CL  N
+SN 2007bd                                                -5.79,9.70 Ia-norm             N
+SN 2007bj                                                     14.25 Ia-norm              
+SN 2007bm                                         -7.79,15.03,19.96 Ia-norm              
+SN 2007bz                                                      1.65 Ia-norm            HV
+SN 2007ca                                              -11.14,16.46 Ia-norm              
+SN 2007cg                                                     16.17 Ia-norm              
+SN 2007ci                                         -6.57,-1.71,13.99 Ia-norm         CL  N
+SN 2007co                                           -4.09,0.85,9.55 Ia-norm     LVG BL  N
+SN 2007cq                                          -5.82,7.84,15.57 Ia                   
+SN 2007cs                                                     12.15 Ia-norm              
+SN 2007fb                                                1.95,14.63 Ia-norm    LVG?     N
+SN 2007fr                                               -5.83,-1.25 Ia-norm         CL  N
+SN 2007fs                                                      5.03 Ia-norm             N
+SN 2007ge                                                     12.53 Ia-norm              
+SN 2007gi                                          -7.31,-0.35,6.61 Ia-norm    HVG?    HV
+SN 2007gk                                               -1.72,19.65 Ia-norm    HVG? BL HV
+SN 2007hj                                               -1.23,12.53 Ia-norm   FAINT CL HV
+SN 2007kk                                                      7.15 Ia-norm            HV
+SN 2007le                             -10.31,-9.40,7.43,16.39,17.37 Ia-norm     HVG    HV
+SN 2007s1                                                     -1.23 Ia-norm         BL  N
+SN 2007on                                         -3.01,-3.00,15.45 Ia-norm         CL  N
+SN 2007qe                                          -6.54,6.23,16.00 Ia-norm            HV
+SN 2007ux                                                      5.59 Ia-norm             N
+SN 2008C                                                      15.68 Ia-norm              
+SN 2008Q                                                 6.46,19.25 Ia-norm             N
+SN 2008Z                                                 -2.29,9.99 Ia-99aa              
+SN 2008ar                                                -8.87,2.83 Ia-norm         CN  N
+SN 2008bt                                               -1.08,10.97 Ia-91bg         CL   
+SN 2008cl                                                      4.24 Ia-norm         CL HV
+SN 2008s1                    -6.36,-4.40,-3.42,0.49,4.40,5.38,15.37 Ia-norm         BL  N
+SN 2008dx                                           2.46,7.33,10.28 Ia-91bg  FAINT* CL   
+SN 2008dt                                                      9.27 Ia-norm            HV
+SN 2008ec                                          -0.24,5.70,12.51 Ia-norm     LVG CL  N
+SN 2008ei                                                 3.29,9.13 Ia-norm    HVG* BL HV
+SN 2008s5                                           1.26,8.96,15.76 Ia         LVG*      
+SN 2008hs                                                     -7.94 Ia-norm              

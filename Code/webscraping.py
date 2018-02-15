@@ -9,19 +9,24 @@ from os import listdir
 import pandas as pd
 
 
-#myPath = "./data/data_raw_convert/"
-#outputfile = "./data/model_v2/sne_table.csv"
+################### Customer setting######################################
+myPath = "/Users/yanxiaomeng/Dropbox/project/snoopy/pipeline/Data/ThirdReleaseData/kCorrected/"
+outputfile = "/Users/yanxiaomeng/Dropbox/project/snoopy/pipeline/Data/ThirdReleaseData/model_v2/coresne_table.csv"
+##############################################################################
 
 
 
-myPath = "/Users/yanxiaomeng/Dropbox/project/snoopy/pipeline/Data/kCorrected_p/"
-outputfile = "/Users/yanxiaomeng/Dropbox/project/snoopy/pipeline/Data/model_v2_p/coresne_table.csv"
+
+
+
+
+
+
+
 
 
 onlyFiles = [f for f in listdir(myPath) if re.search(r'csv', f)]
-
 nFiles = len(onlyFiles)
-
 colNames = ['SN', 'Survey','snetype', 'Type', 'AB', 'AV',
             'AR', 'AI', 'sdssr', 'sdssi',
             'RAX','DECX','Zcmb']
@@ -30,7 +35,7 @@ df = pd.DataFrame(index=range(0, nFiles),
                   columns=colNames,
                   dtype='object')
 
-redshiftdf = pd.read_csv("/Users/yanxiaomeng/Dropbox/project/snoopy/pipeline/Data/Redshift.csv")
+redshiftdf = pd.read_csv("/Users/yanxiaomeng/Dropbox/project/snoopy/pipeline/Data/ThirdReleaseData/Redshift.csv")
 
 for rowI in range(0, nFiles):
     print(onlyFiles[rowI].replace(".csv", "").split("_"))

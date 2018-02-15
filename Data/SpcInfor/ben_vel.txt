@@ -1,0 +1,91 @@
+#  Title: BSNIP II: Initial Analysis of Maximum-Light Spectra
+#  Authors: Silverman et al.
+#  Table: Velocity Gradients and Interpolated/Extrapolated Velocities
+#  Columns
+#  ---------------------------------------------------------------------------------
+#  Supernova Name (1)
+#  Benetti Type (2)
+#  Light curve reference (3)
+#  velocity gradient (km/s/day)
+#  velocity gradient error
+#  v of Si II 6355 Ang. line at t=0 (10^3 km/s)
+#  v at t=0 error
+#  v of Si II 6355 Ang. line at t=10 (10^3 km/s)
+#  v at t=10 error
+#
+#  The following SNe have more than two near-maximum spectra that were used to 
+#  calculate the velocity gradient: SN 1991bg, SN 1994D, SN 1999gh, SN 2001ep, 
+#  SN 2002ha, SN 2002he, SN 2006N, SN 2006S, SN 2006bq, SN 2007af, SN 2007co, 
+#  SN 2007le, SN 2008ec.
+#  Note (1):
+#        SN 2008s5 = SNF20080909-030.
+#  Note (2):  Classification based on the velocity gradient of the Si II 6355 Ang.  
+#             line (Benetti et al. 2005). "HVG" = high velocity gradient;           
+#             "LVG" = low velocity gradient; "FAINT" = faint/underluminous.         
+#             Classifications marked with a "?" are uncertain since light-curve     
+#             shape information is unavailable. Classifications marked with a "*"   
+#             use the MLCS2k2 Delta parameter (Jha et al. 2007) as a proxy for dm15.
+#  Note (3):  Source of dm15 (or MLCS2k2 Delta) value.                              
+#
+#  ---------------------------------------------------------------------------------
+SN 1989M     HVG            Ganeshalingam et al. (2010) 291.84 139.4 13.19 0.42 10.27 0.98
+SN 1991bg  FAINT                  Hicken et al. (2009a) 131.31  6.44 10.50 0.07  9.19 0.10
+SN 1994D     LVG                  Hicken et al. (2009a)  33.43  6.77 10.60 0.06 10.27 0.09
+SN 1999ac    HVG            Ganeshalingam et al. (2010) 445.41 49.10  9.90 0.13  5.45 0.61
+SN 1999cp    LVG            Ganeshalingam et al. (2010)  32.36 15.43 10.65 0.16 10.32 0.07
+SN 1999da  FAINT            Ganeshalingam et al. (2010) 131.17 15.56 11.05 0.08  9.73 0.14
+SN 1999dq    HVG            Ganeshalingam et al. (2010)  83.64 20.04 10.92 0.07 10.08 0.22
+SN 1999gh  FAINT                      Jha et al. (2006)  46.49 10.13 11.21 0.13 10.74 0.17
+SN 2000dk  FAINT            Ganeshalingam et al. (2010) 108.19 14.04 11.30 0.11 10.21 0.09
+SN 2000dm    HVG            Ganeshalingam et al. (2010)  97.14 14.08 11.28 0.08 10.31 0.12
+SN 2000dn    LVG            Ganeshalingam et al. (2010)  49.24  7.95 10.18 0.09  9.69 0.07
+SN 2001bg   HVG*            Ganeshalingam et al. (2010) 228.90 26.52 14.56 0.44 12.27 0.18
+SN 2001da    HVG            Ganeshalingam et al. (2010)  88.17 12.75 11.50 0.09 10.62 0.10
+SN 2001en    HVG            Ganeshalingam et al. (2010) 103.48 29.98 13.31 0.38 12.28 0.10
+SN 2001ep    HVG            Ganeshalingam et al. (2010)  96.18 26.92 10.45 0.15  9.49 0.31
+SN 2002bo    HVG            Ganeshalingam et al. (2010) 245.14  8.12 13.61 0.09 11.16 0.07
+SN 2002cd    LVG            Ganeshalingam et al. (2010)  17.91  8.33 14.83 0.11 14.65 0.07
+SN 2002de    HVG            Ganeshalingam et al. (2010)  96.88 15.94 11.89 0.09 10.92 0.12
+SN 2002eu   HVG?                                        119.97 14.63 11.07 0.10  9.87 0.10
+SN 2002ha    LVG            Ganeshalingam et al. (2010)  15.54 15.55 10.90 0.08 10.74 0.18
+SN 2002hd   HVG*            Ganeshalingam et al. (2010) 116.29 22.08 11.17 0.22 10.01 0.07
+SN 2002he    HVG            Ganeshalingam et al. (2010)  81.01 31.94 12.57 0.06 11.76 0.33
+SN 2003he    LVG            Ganeshalingam et al. (2010)  14.49 23.71 11.39 0.15 11.25 0.12
+SN 2003iv   HVG?                                         98.60 28.67 11.42 0.14 10.43 0.18
+SN 2004bl   HVG?                                         70.91  9.33 11.01 0.13 10.30 0.07
+SN 2004dt    HVG            Ganeshalingam et al. (2010) 269.45  8.34 14.71 0.11 12.01 0.07
+SN 2004fu   HVG?                                        211.06 27.37 12.36 0.07 10.25 0.29
+SN 2005M     HVG            Ganeshalingam et al. (2010)  86.36 137.6  8.77 1.20  7.90 0.19
+SN 2005am  FAINT            Ganeshalingam et al. (2010)  61.11 72.62 11.74 0.40 11.13 0.34
+SN 2005bc    LVG            Ganeshalingam et al. (2010)  64.63 23.70 11.01 0.13 10.37 0.15
+SN 2005cf    HVG            Ganeshalingam et al. (2010) 106.69 149.5 10.14 0.26  9.07 1.74
+SN 2005de    HVG            Ganeshalingam et al. (2010)  70.45 12.73 10.86 0.09 10.15 0.10
+SN 2005el    LVG            Ganeshalingam et al. (2010)  13.46 20.10 10.95 0.12 10.81 0.13
+SN 2005er   HVG?                                        228.72 71.21 10.02 0.09  7.73 0.67
+SN 2005eq    HVG            Ganeshalingam et al. (2010)  76.47 37.84  9.58 0.08  8.82 0.43
+SN 2005ki    LVG            Ganeshalingam et al. (2010)  24.19 20.54 11.27 0.12 11.03 0.12
+SN 2005ms    HVG                  Hicken et al. (2009a) 115.00  8.36 10.95 0.09  9.80 0.08
+SN 2005na    HVG            Ganeshalingam et al. (2010) 288.79 138.1 10.93 0.10  8.04 1.31
+SN 2006N     HVG                  Hicken et al. (2009a)  84.84  8.96 11.20 0.06 10.35 0.11
+SN 2006S     LVG                  Hicken et al. (2009a)  35.46  6.02 10.60 0.07 10.25 0.09
+SN 2006bq   HVG*            Ganeshalingam et al. (2010) 219.70 15.82 15.47 0.20 13.27 0.25
+SN 2006bt    HVG            Ganeshalingam et al. (2010) 223.70 20.34 11.04 0.07  8.80 0.24
+SN 2006dm    HVG            Ganeshalingam et al. (2010) 131.21 23.46 11.49 0.28 10.18 0.08
+SN 2006ej    HVG            Ganeshalingam et al. (2010)  92.24 15.78 12.11 0.07 11.19 0.16
+SN 2006eu    HVG            Ganeshalingam et al. (2010) 356.38 23.54 14.50 0.32 10.94 0.10
+SN 2006et    LVG            Ganeshalingam et al. (2010)  16.07 23.52  9.49 0.16  9.32 0.11
+SN 2006ev   HVG?                                         82.46 23.77 12.69 0.33 11.86 0.11
+SN 2006ke   HVG?                                        111.91 22.80  9.65 0.14  8.53 0.13
+SN 2006sr    HVG                  Hicken et al. (2009a) 152.37 27.60 12.03 0.07 10.51 0.28
+SN 2007A    LVG?                                         22.10 10.87 10.83 0.12 10.61 0.07
+SN 2007af    HVG            Ganeshalingam et al. (2010)  72.01 25.73 10.91 0.07 10.19 0.27
+SN 2007co    LVG            Ganeshalingam et al. (2010)  41.96 10.01 11.43 0.06 11.01 0.12
+SN 2007fb   LVG?                                         52.78 10.90 11.46 0.11 10.93 0.07
+SN 2007gi   HVG?                                        197.68 20.12 15.66 0.09 13.69 0.15
+SN 2007gk   HVG?                                        138.74  6.50 13.83 0.09 12.44 0.07
+SN 2007hj  FAINT            Ganeshalingam et al. (2010) 133.27 10.06 12.26 0.09 10.92 0.08
+SN 2007le    HVG            Ganeshalingam et al. (2010)  93.35 12.65 12.78 0.18 11.84 0.22
+SN 2008dx FAINT*            Ganeshalingam et al. (2010)  97.91 28.21  9.62 0.15  8.64 0.16
+SN 2008ec    LVG            Ganeshalingam et al. (2010)  68.61 10.82 11.01 0.09 10.33 0.14
+SN 2008ei   HVG*            Ganeshalingam et al. (2010) 114.40 23.97 15.72 0.16 14.57 0.11
+SN 2008s5   LVG*            Ganeshalingam et al. (2010)  11.86 17.85  9.09 0.11  8.97 0.11
